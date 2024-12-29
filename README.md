@@ -32,7 +32,7 @@ Basic usage:
 
 ```python
 import asyncio
-from aioftp import FtpServer
+from saioftp import FtpServer
 
 async def main():
     # Create FTP server instance
@@ -66,11 +66,6 @@ Basic security features:
 - Safe file uploads using temporary files
 - No system directory changes (uses internal path tracking)
 
-Note: This is a basic implementation. For production use, consider adding:
-- Strong authentication
-- SSL/TLS support
-- Access control
-- File permission checks
 
 ## Contributing
 
